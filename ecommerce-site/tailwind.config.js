@@ -14,7 +14,8 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         inter : ["Inter", "sans-serif"],
         dance : ["Dancing Script", "cursive"],
-        lora : ["Lora" , "serif" ]
+        lora : ["Lora" , "serif" ],
+        montserrat : ["Montserrat" , "sans-serif"],
 
       },
     },

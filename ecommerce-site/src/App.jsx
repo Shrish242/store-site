@@ -11,12 +11,13 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-        <Route
+        {/* <Route
            exact path="/home"
             element={
               loginuser && loginuser._id ? <Homepage /> : <Login setLoginuser= {setLoginuser} />
             }
-          />
+          /> */}
+          <Route path="/home" element={<Homepage />} />
           <Route path="/" element={<Signup />} />
           <Route path="/login" element={<Login setLoginuser={setLoginuser} />} />
           
