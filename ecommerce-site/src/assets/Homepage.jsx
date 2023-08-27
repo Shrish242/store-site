@@ -27,6 +27,9 @@ import best from '../image/best.png'
 import men from  '../image/men.png'
 import women from '../image/women.png'
 import profile1  from '../image/mixture.jpg'
+import master from '../image/master.png'
+import esewa from '../image/esewa.png'
+import online from '../image/online.png'
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -371,7 +374,37 @@ const Homepage = () => {
   <p className='flex justify-center items-center montserrat text-2xl text-[#003366] absolute top-[6vh] left-[27vw]'>
     Get 23% off on your first purchase by subscribing to our newsletter
   </p>
+
+  <input className='w-[20vw] h-[10vh] bg-slate-300 border border-1 border-[#003366] relative top-[19vh] left-[37vw]' type="text" placeholder="Enter your mail" />
+  <button className='bg-[#003366] w-[9vw] h-[10vh] relative top-[19.2vh] left-[37vw] border border-1 border-white '><p className='montserrat text-white text-xl'>Submit</p></button>
+  <p className='montserrat text-black opacity-75 absolute top-[35vh] left-[37vw] text-xl'>You will be able to unsubscribe anytime.</p>
+  <p className='montserrat text-black opacity-75 absolute top-[40vh] left-[40vw] text-xl'>Read our Privacy Policy here.</p>
 </div>
+
+<div className='h-[32vh] bg-[#003366] top-[150vh] relative'>
+<p className='montserrat text-white text-4xl absolute top-[6vh] left-[10vw]'>Glam</p>
+<p className='montserrat text-white text-1xl absolute opacity-75 top-[13vh] left-[10vw] font-light'>Elevate Your Style With our Glamorous Fashion <br /> with us</p>
+<p className='montserrat text-white text-2xl absolute top-[9vh] left-[45vw]'>Shop</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[45vw]'>Men's Wear</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[45vw]'>Special Footwear</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[21vh] left-[45vw]'>Summer Collection</p>
+<p className='montserrat text-white text-2xl absolute top-[9vh] left-[60vw]'>Quick Links</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[60vw]'>Home</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[60vw]'>Special Offers</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[21vh] left-[60vw]'>Testimonials</p>
+<p className='montserrat text-white text-2xl absolute top-[9vh] left-[75vw]'>Support</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[75vw]'>FAQs</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[75vw]'>Privacy Policy</p>
+<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[21vh] left-[75vw]'>Terms & Conditions</p>
+<p className='montserrat text-white text-2xl absolute top-[9vh] left-[89vw]'>Payment</p>
+<div className='float flex space-x-3 absolute left-[87vw] top-[15vh] '>
+<img className='w-[4vw] h-[4vh]' src={master} alt="" />
+<img className='w-[2.5vw] h-[4vh]' src={esewa} alt="" />
+<img className='w-[3vw] h-[4vh]' src={online} alt="" />
+</div>
+
+</div>
+
 
     </div>
   )
