@@ -30,6 +30,7 @@ import profile1  from '../image/mixture.jpg'
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import offer from '../image/offer.jpg'
 
 // Import Swiper styles
 import "swiper/css";
@@ -359,6 +360,19 @@ const Homepage = () => {
     </div>
   </div>
 </div> 
+
+<div className='h-[50vh] top-[160vh] relative'>
+  <img  className='w-[60vw] h-[30vh] relative left-[20vw]' src={offer} alt="" />
+</div>
+
+
+<div className='relative h-[70vh] top-[160vh]'>
+  <p className='montserrat text-3xl font-semibold text-[#003366] absolute left-[33vw]'>Subscribe to our Customer Profile</p>
+  <p className='flex justify-center items-center montserrat text-2xl text-[#003366] absolute top-[6vh] left-[27vw]'>
+    Get 23% off on your first purchase by subscribing to our newsletter
+  </p>
+</div>
+
     </div>
   )
 }
