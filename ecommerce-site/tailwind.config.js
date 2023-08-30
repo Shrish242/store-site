@@ -12,10 +12,9 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        inter : ["Inter", "sans-serif"],
-        dance : ["Dancing Script", "cursive"],
         lora : ["Lora" , "serif" ],
-        montserrat : ["Montserrat" , "sans-serif"],
+        mont : ["Montserrat" , "sans-serif"],
+        jude : ["Judson" , 'serif']
 
       },
     },

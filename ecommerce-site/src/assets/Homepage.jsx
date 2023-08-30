@@ -57,11 +57,11 @@ const Homepage = () => {
       </div>
 
       <div className='flex w-full h-[9vh] bg-[#F5F5F5]'>
-        <p className='mont text-xl absolute left-[12%] top-[9%] font-medium'>Glam.</p>
-        <p className='mont text-lg absolute left-[25%] top-[9%] '>Man</p>
-        <p className='mont text-lg absolute left-[33%] top-[9%]'>Woman</p>
-        <p className='mont text-lg absolute left-[41%] top-[9%] '>Children</p>
-        <p className='mont text-lg absolute left-[49%] top-[9%] '>Explore</p>
+        <p className='font-mont text-xl absolute left-[12%] top-[9%] font-medium'>Glam.</p>
+        <p className='font-mont text-lg absolute left-[25%] top-[9%] '>Man</p>
+        <p className='font-mont text-lg absolute left-[33%] top-[9%]'>Woman</p>
+        <p className='font-mont text-lg absolute left-[41%] top-[9%] '>Children</p>
+        <p className='font-mont text-lg absolute left-[49%] top-[9%] '>Explore</p>
         <input className='absolute left-[60%] top-[9%] w-[15vw] rounded-lg h-[5vh] border-1 border-[black]' placeholder='  Search for products' type="text" />
         <img className='w-[2vw] h-[4vh] absolute left-[73%] top-[9.5%]' src={search} alt="" />
         <img className='w-[2vw] h-[4vh] absolute left-[79%] top-[9.5%]' src={cart} alt="" />
@@ -70,7 +70,7 @@ const Homepage = () => {
       </div>
 
       <div className=' w-full h-[70vh] bg-[#0C1212]'>
-        <p className='text-left absolute montserrat text-4xl  left-[5%] top-[30%] text-white'>
+        <p className='text-left absolute font-mont text-4xl  left-[5%] top-[30%] text-white'>
           Discover Luxurious <br />
           Creations for Your <br />
           Ideal Lifestyle
@@ -92,19 +92,19 @@ const Homepage = () => {
 
       <div className='h-[40vh]'>
         <img className='absolute left-[60%] top-[115vh]' src={line} alt="" />
-        <p className='absolute left-[50%] top-[112vh] montserrat text-2xl text-[#003366] '>Brands</p>
+        <p className='absolute left-[50%] top-[112vh] mont text-2xl text-[#003366] '>Brands</p>
         <img className='absolute left-[30%] top-[115vh]'  src={line} alt="" />
         <div className='flex spcae-x-9 absolute left-[40%] '>
-        <img className='w-[6.7vw] h-[10vh] relative left-[15vw] top-[23vh] ' src={adiddas} alt="" />
-        <img className='w-[6.7vw] h-[10vh] absolute left-[30vw] top-[23vh]' src={brand1} alt="" />
-        <img className='w-[6.7vw] h-[10vh] absolute right-[0vw] top-[23vh]' src={nike} alt="" />
-        <img className='w-[6.7vw] h-[10vh] absolute right-[15vw] top-[23vh]' src={zara} alt="" />
+        <img className='w-[6.7vw] h-[10vh] relative left-[15vw] top-[28vh] ' src={adiddas} alt="" />
+        <img className='w-[6.7vw] h-[10vh] absolute left-[30vw] top-[28vh]' src={brand1} alt="" />
+        <img className='w-[6.7vw] h-[10vh] absolute right-[0vw] top-[28vh]' src={nike} alt="" />
+        <img className='w-[6.7vw] h-[10vh] absolute right-[15vw] top-[28vh]' src={zara} alt="" />
         </div>
       </div>
 
       <div className='h-[70vh]'>
       <img className='absolute left-[60%] top-[169vh]' src={line} alt="" />
-        <p className='absolute left-[50%] top-[167vh] montserrat text-2xl text-[#003366] '>Services</p>
+        <p className='absolute left-[50%] top-[167vh] mont text-2xl text-[#003366] '>Services</p>
         <img className='absolute left-[30%] top-[169vh]'  src={line} alt="" />
       </div>
 
@@ -127,7 +127,7 @@ const Homepage = () => {
 <div className='h-[70vh] relative'>
   {/* Adjusting the positioning of the images and text */}
   <img className='absolute left-[62%] top-[10vh]' src={line} alt="" />
-  <p className='absolute left-[48%] top-[7.5vh] font-montserrat text-2xl text-[#003366] font-medium'>Top Products</p>
+  <p className='absolute left-[48%] top-[7.5vh] font-mont text-2xl text-[#003366] font-medium'>Top Products</p>
   <img className='absolute left-[32%] top-[10vh]' src={line} alt="" />
 
   {/* Using grid-cols-2 for md screens and grid-cols-4 for lg screens */}
@@ -192,7 +192,7 @@ const Homepage = () => {
 
 <div className='h-[75vh] relative'>
 <img className='absolute left-[66%] top-[100vh]' src={line} alt="" />
-  <p className='absolute left-[48%] top-[97.5vh] font-montserrat text-2xl text-[#003366] font-medium'>Popular Categories</p>
+  <p className='absolute left-[48%] top-[97.5vh] font-mont text-2xl text-[#003366] font-medium'>Popular Categories</p>
   <img className='absolute left-[32%] top-[100vh]' src={line} alt="" />
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 absolute top-[112vh] space-x-14">
     <div className='bg-[#D9D9D9] relative left-[2vw] w-[25vw] h-[20vh] '>
@@ -232,17 +232,17 @@ const Homepage = () => {
 
 <div className='relative h-[70vh]'>
   <img className='absolute left-[64%] top-[100vh]' src={line} alt="" />
-  <p className='absolute left-[50%] top-[97vh] montserrat text-2xl text-[#003366] '>Best Picks</p>
+  <p className='absolute left-[50%] top-[97vh] font-mont text-2xl text-[#003366] '>Best Picks</p>
   <img className='absolute left-[32%] top-[100vh]' src={line} alt="" />
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 absolute top-[110vh] left-[12vw]  space-x-14">
   <div><img className=' h-[35vh] w-[17vw]  top-[120vh]' src={women} alt="" /> 
-  <div className='absolute bg-[#D9D9D9] left-[7vh] top-[27vh] h-[5vh] w-[9vw] rounded-lg'><p className='montserrat font-semibold left-[2vw] relative'>Best Seller</p></div>
+  <div className='absolute bg-[#D9D9D9] left-[7vh] top-[27vh] h-[5vh] w-[9vw] rounded-lg'><p className='font-mont font-semibold left-[2vw] relative'>Best Seller</p></div>
   </div>
   <div> <img className=' h-[35vh] w-[17vw]  top-[120vh]' src={best} alt="" />
-  <div className='absolute bg-[#D9D9D9] left-[69vh] top-[27vh] h-[5vh] w-[9vw] rounded-lg'><p className='montserrat font-semibold left-[1vw] relative'>  Shop Woman</p></div>
+  <div className='absolute bg-[#D9D9D9] left-[69vh] top-[27vh] h-[5vh] w-[9vw] rounded-lg'><p className='font-mont font-semibold left-[1vw] relative'>  Shop Woman</p></div>
   </div>
   <div> <img className=' h-[35vh] w-[17vw] top-[120vh]' src={men} alt="" />
-  <div className='absolute bg-[#D9D9D9] left-[122vh] top-[27vh] h-[5vh] w-[9vw] rounded-lg'><p className='montserrat font-semibold left-[2vw] relative'>Shop Men</p></div>
+  <div className='absolute bg-[#D9D9D9] left-[122vh] top-[27vh] h-[5vh] w-[9vw] rounded-lg'><p className='font-mont font-semibold left-[2vw] relative'>Shop Men</p></div>
   </div>
   </div>
 </div>
@@ -250,7 +250,7 @@ const Homepage = () => {
 
       <div className='h-[30vh] relative top-[25vw] '>
        <img className='absolute left-[64%] top-[50vh]' src={line} alt="" />
-  <p className='absolute left-[50%] top-[47vh] montserrat text-2xl text-[#003366] '>Testimonials</p>
+  <p className='absolute left-[50%] top-[47vh] font-mont text-2xl text-[#003366] '>Testimonials</p>
   <img className='absolute left-[32%] top-[50vh]' src={line} alt="" />
   <div className="testimonialWrapper">
     <div className="testimonialTop">
@@ -291,7 +291,7 @@ const Homepage = () => {
                   </div>
                 </div>
               </div>
-      <p className="text-lg text-center relative bottom-[70vh]">
+      <p className="text-lg text-center mont relative bottom-[70vh]">
         "Absolutely delighted with my purchase from this store! The product's quality exceeded my expectations,<br />
         and the attention to detail is exceptional. Fast shipping too.<br />
         Will definitely be coming back for more. Highly recommended!"
@@ -370,33 +370,33 @@ const Homepage = () => {
 
 
 <div className='relative h-[70vh] top-[160vh]'>
-  <p className='montserrat text-3xl font-semibold text-[#003366] absolute left-[33vw]'>Subscribe to our Customer Profile</p>
-  <p className='flex justify-center items-center montserrat text-2xl text-[#003366] absolute top-[6vh] left-[27vw]'>
+  <p className='font-mont text-3xl font-semibold text-[#003366] absolute left-[33vw]'>Subscribe to our Customer Profile</p>
+  <p className='flex justify-center items-center font-mont text-2xl text-[#003366] absolute top-[6vh] left-[27vw]'>
     Get 23% off on your first purchase by subscribing to our newsletter
   </p>
 
   <input className='w-[20vw] h-[10vh] bg-slate-300 border border-1 border-[#003366] relative top-[19vh] left-[37vw]' type="text" placeholder="Enter your mail" />
-  <button className='bg-[#003366] w-[9vw] h-[10vh] relative top-[19.2vh] left-[37vw] border border-1 border-white '><p className='montserrat text-white text-xl'>Submit</p></button>
-  <p className='montserrat text-black opacity-75 absolute top-[35vh] left-[37vw] text-xl'>You will be able to unsubscribe anytime.</p>
-  <p className='montserrat text-black opacity-75 absolute top-[40vh] left-[40vw] text-xl'>Read our Privacy Policy here.</p>
+  <button className='bg-[#003366] w-[9vw] h-[10vh] relative top-[19.2vh] left-[37vw] border border-1 border-white '><p className='font-mont text-white text-xl'>Submit</p></button>
+  <p className='font-mont text-black opacity-75 absolute top-[35vh] left-[37vw] text-xl'>You will be able to unsubscribe anytime.</p>
+  <p className='font-mont text-black opacity-75 absolute top-[40vh] left-[40vw] text-xl'>Read our Privacy Policy here.</p>
 </div>
 
 <div className='h-[32vh] bg-[#003366] top-[150vh] relative'>
-<p className='montserrat text-white text-4xl absolute top-[6vh] left-[10vw]'>Glam</p>
-<p className='montserrat text-white text-1xl absolute opacity-75 top-[13vh] left-[10vw] font-light'>Elevate Your Style With our Glamorous Fashion <br /> with us</p>
-<p className='montserrat text-white text-2xl absolute top-[9vh] left-[45vw]'>Shop</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[45vw]'>Men's Wear</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[45vw]'>Special Footwear</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[21vh] left-[45vw]'>Summer Collection</p>
-<p className='montserrat text-white text-2xl absolute top-[9vh] left-[60vw]'>Quick Links</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[60vw]'>Home</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[60vw]'>Special Offers</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[21vh] left-[60vw]'>Testimonials</p>
-<p className='montserrat text-white text-2xl absolute top-[9vh] left-[75vw]'>Support</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[75vw]'>FAQs</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[75vw]'>Privacy Policy</p>
-<p className='montserrat text-white text-lg opacity-75 font-light absolute top-[21vh] left-[75vw]'>Terms & Conditions</p>
-<p className='montserrat text-white text-2xl absolute top-[9vh] left-[89vw]'>Payment</p>
+<p className='font-mont text-white text-4xl absolute top-[6vh] left-[10vw]'>Glam</p>
+<p className='font-mont text-white text-1xl absolute opacity-75 top-[13vh] left-[10vw] font-light'>Elevate Your Style With our Glamorous Fashion <br /> with us</p>
+<p className='font-mont text-white text-2xl absolute top-[9vh] left-[45vw]'>Shop</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[45vw]'>Men's Wear</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[45vw]'>Special Footwear</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[21vh] left-[45vw]'>Summer Collection</p>
+<p className='font-mont text-white text-2xl absolute top-[9vh] left-[60vw]'>Quick Links</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[60vw]'>Home</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[60vw]'>Special Offers</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[21vh] left-[60vw]'>Testimonials</p>
+<p className='font-mont text-white text-2xl absolute top-[9vh] left-[75vw]'>Support</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[13.5vh] left-[75vw]'>FAQs</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[17.3vh] left-[75vw]'>Privacy Policy</p>
+<p className='font-mont text-white text-lg opacity-75 font-light absolute top-[21vh] left-[75vw]'>Terms & Conditions</p>
+<p className='font-mont text-white text-2xl absolute top-[9vh] left-[89vw]'>Payment</p>
 <div className='float flex space-x-3 absolute left-[87vw] top-[15vh] '>
 <img className='w-[4vw] h-[4vh]' src={master} alt="" />
 <img className='w-[2.5vw] h-[4vh]' src={esewa} alt="" />
