@@ -125,12 +125,10 @@ const Homepage = () => {
 
 
 <div className='h-[70vh] relative'>
-  {/* Adjusting the positioning of the images and text */}
   <img className='absolute left-[62%] top-[10vh]' src={line} alt="" />
   <p className='absolute left-[48%] top-[7.5vh] font-mont text-2xl text-[#003366] font-medium'>Top Products</p>
   <img className='absolute left-[32%] top-[10vh]' src={line} alt="" />
 
-  {/* Using grid-cols-2 for md screens and grid-cols-4 for lg screens */}
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 absolute top-[22vh] space-x-14">
     <div className='bg-[#D9D9D9] relative left-[15vw] w-[16vw] h-[60vh] '>
       <img src={shoe} alt="" />
